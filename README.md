@@ -1,5 +1,4 @@
-Project Title:Live Weather Dashboard
-  The aim of the Live Weather Dashboard is to display real-time weather information of any city or location. It helps users easily check temperature,humidity,wind speed and weather conditions using data from online weather APIs.
+Project Title:Live Weather Dashboard The aim of the Live Weather Dashboard is to display real-time weather information of any city or location. It helps users easily check temperature,humidity,wind speed and weather conditions using data from online weather APIs.
 Features:
   * Real-time Weather Data
   * City Search Option
