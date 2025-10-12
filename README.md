@@ -1,19 +1,39 @@
-Project Title:Live Weather Dashboard The aim of the Live Weather Dashboard is to display real-time weather information of any city or location. It helps users easily check temperature,humidity,wind speed and weather conditions using data from online weather APIs.
-Features:
-  * Real-time Weather Data
-  * City Search Option
-  * Live Updates
-  * User-Friendly Interface
-  * Dynamic Backgrounds
-Technologies Used:
-  * HTML
-  * CSS
-  * JavaScript
-  * Weather API
-How it Works:
-  1.The user enters a city name in the search box.
-  2.The JavaScript script sends a request to the Weather API(like OpenWeatherMap) using that city name.
-  3.The API returns current weather data in JSON format.
-  4.The JavaScript code extracts useful details such as temperature,humidity,wind speed and description.
-  5.The dashboard displays the information instantly on the screen.
-  6.The background or icon updates according to the weather condition(like sunnny,rainy or cloud).   
+Aim
+
+The aim of the Live Weather Dashboard is to provide users with real-time weather updates for any city or location. It helps users view current temperature, humidity, wind speed, and weather conditions through an interactive and user-friendly interface.
+
+Features
+
+🌦️ Real-Time Weather Data: Displays live temperature, humidity, wind speed, and weather description.
+
+🗺️ Location Search: Allows users to search weather details of any city or region.
+
+🌍 Dynamic Interface: Automatically updates data when a new location is searched.
+
+☀️ Weather Icons: Shows visual icons representing the current weather condition (sunny, cloudy, rainy, etc.).
+
+📱 Responsive Design: Works smoothly on desktop and mobile screens.
+
+⚠️ Error Handling: Shows messages for invalid city names or network issues.
+
+Technologies Used
+
+Frontend: HTML, CSS, JavaScript
+
+API: OpenWeatherMap API (for fetching live weather data)
+
+Tools: VS Code (for development), GitHub Pages / Vercel (for deployment)
+
+How It Works
+
+The user enters a city name in the search bar.
+
+The dashboard sends a request to the OpenWeatherMap API using JavaScript fetch() method.
+
+The API returns live weather data in JSON format.
+
+The JavaScript script extracts key details like temperature, humidity, and wind speed.
+
+The dashboard updates the webpage dynamically to display the latest weather information with icons and styles.
+
+If the city is not found, an error message is displayed to the user.
