@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Weather Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(cloud.jpeg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      width: 350px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    input {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #0078ff;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005ec2;
+    }
+    #output {
+      margin-top: 15px;
+      font-size: 16px;
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>🌦️ Live Weather Dashboard</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="output"></div>
+  </div>
+
+  <script>
+    async function getWeather() {
+      const city = document.getElementById("cityInput").value.trim();
+      const output = document.getElementById("output");
+      const apiKey = "b36877e2b7814e99d295eb063223be74"; 
+
+      if (!city) {
+        output.innerHTML = "<p style='color:red'>Please enter a city name!</p>";
+        return;
+      }
+
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`;
+
+      output.innerHTML = "<p>Loading...</p>";
+    }
+  </script>
+</body>
+</html>
