@@ -5,17 +5,17 @@ The aim of the Live Weather Dashboard is to provide users with real-time weather
 
 Features
 
-🌦️ Real-Time Weather Data: Displays live temperature, humidity, wind speed, and weather description.
+  Real-Time Weather Data: Displays live temperature, humidity, wind speed, and weather description.
 
-🗺️ Location Search: Allows users to search weather details of any city or region.
+  Location Search: Allows users to search weather details of any city or region.
 
-🌍 Dynamic Interface: Automatically updates data when a new location is searched.
+  Dynamic Interface: Automatically updates data when a new location is searched.
 
-☀️ Weather Icons: Shows visual icons representing the current weather condition (sunny, cloudy, rainy, etc.).
+  Weather Icons: Shows visual icons representing the current weather condition (sunny, cloudy, rainy, etc.).
 
-📱 Responsive Design: Works smoothly on desktop and mobile screens.
+  Responsive Design: Works smoothly on desktop and mobile screens.
 
-⚠️ Error Handling: Shows messages for invalid city names or network issues.
+  Error Handling: Shows messages for invalid city names or network issues.
 
 Technologies Used
 
