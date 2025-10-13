@@ -1,5 +1,5 @@
 Project Title: Live Weather Dashboard
-Aim
+
 
 The aim of the Live Weather Dashboard is to provide users with real-time weather updates for any city or location. It helps users view current temperature, humidity, wind speed, and weather conditions through an interactive and user-friendly interface.
 
